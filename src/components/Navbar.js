@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 
 function Navbar() {
   const { amount } = useSelector((store) => store.cart);
-  console.log(amount);
   return (
     <nav>
       <div className="nav-center">
