@@ -1,4 +1,5 @@
 import { ChevronUp, ChevronDown } from "../icons";
+
 function CartItem({ id, img, title, price, amount }) {
   return (
     <article className="cart-item">
